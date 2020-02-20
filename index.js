@@ -62,7 +62,7 @@ function render(nameInput, peopleInput, yearInput, statusInput, amountInput){
     <body style="background-image: url('images/${background}.jpeg');">
       <h1>Welcome ${nameInput}</h1>
       <h2>This your personalised holiday plan!</h2>
-      <h3>Since you own ${amountInput} computer${burglar}</h3>
+      <h3>Since you own ${amountInput} computer${burglar}<br/>${birth}</h3>
       <div id="content">
         <div class="col1">
           <h2>Activities</h2>
