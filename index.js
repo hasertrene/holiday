@@ -19,7 +19,7 @@ function render(nameInput, peopleInput, yearInput, statusInput, amountInput){
   : "We figured you like it hot!" 
 
   function partyOf(people, status){
-    if(people == 2 && status == ('married' || 'relationship')){
+    if(people == 2 && status == 'married' || 'relationship'){
     return `You seem to be going on a romantic holiday. Here are some activities:\n
     <ul>
     <li>Have sex</li>
@@ -44,7 +44,7 @@ function render(nameInput, peopleInput, yearInput, statusInput, amountInput){
   }
 
   function pic(people, status){
-    if(people == 2 && status == ('married' || 'relationship')){
+    if(people == 2 && status == 'married' || 'relationship'){
       return 'romance'
     } else if(people >=2){
       return 'group'
