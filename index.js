@@ -63,6 +63,7 @@ function render(nameInput, peopleInput, yearInput, statusInput, amountInput){
       <h1>Welcome ${nameInput}</h1>
       <h2>This your personalised holiday plan!</h2>
       <h3>Since you own ${amountInput} computer${burglar}</h3>
+      <p>input:name&amountOfPeople&birthYear&maritalStatus&computerAmount</p>
       <div id="content">
         <div class="col1">
           <h2>Activities</h2>
